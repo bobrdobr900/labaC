@@ -1,0 +1,6 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: 'dotnet new webapi --use-controllers -o TodoApi'
+    command: 'cd TodoApi && dotnet build'
